@@ -1,7 +1,13 @@
+import * as S from "../pages/styled";
+import { MenuList } from "../components/MenuList/MenuList";
+import { HomeInfo } from "../components/HomeInfoPage/HomeInfo";
 
 const HomePage = () => {
   return (
-    <div className="bg-light">{"hello"}</div>
+    <S.HomeContainer>
+      <MenuList />
+      <HomeInfo />
+    </S.HomeContainer>
   );
 };
 
